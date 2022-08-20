@@ -206,14 +206,7 @@
                   <div>
                     <h1 class="card-title fw-bold">Explore The elearning
                       Institute</h1>
-                    <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which don't look even slightly believable. If you are going
-                      to use a passage of Lorem Ipsum, you need to be sure.
-                      
-                      
-                      Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                      generators on the Internet tend to repeat predefined.</p>
+                    <p class="card-text"> A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning.</p>
                     <div class="btn btn-primary">Read More</div>
                   </div>
                 </div>
@@ -226,15 +219,35 @@
         <section class="container">
           <div class="bg-register text-white border rounded">
             <div class="row">
-              <div class="col-lg-8 d-flex align-items-center justify-content-center p-5">
-                <div>
+              <div class="col-lg-8 d-lg-flex align-items-center justify-content-center p-5">
+                <div class="text-lg-start text-center">
                 <h2>Ready To Join?</h2>
                 <p>Are you interested to join our courses? Hurry uh. Register now by clicking the 'Register Now' button.</p>
                 </div>
               </div>
-              <div class="col-lg-4 d-flex align-items-center">
-                <div class="btn btn-light fw-semibold">Register Now</div>
+              <div class="col-lg-4 d-lg-flex align-items-center justify-content-center mb-5 mb-lg-0 text-center">
+                <button type="button" class="btn btn-light fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Register Now
+                </button>
               </div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">Register Confirmation</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark">Are you sure that you want to Register?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </section>
@@ -248,34 +261,38 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto odio, sunt aperiam facilis illo voluptatibus.</p>
             </div>
           </div>
-          <div class="d-lg-flex">
+          <div class="d-lg-flex ">
             
-          <div class="card me-2">
-            <img src="images/student/student-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Md Abdullah Al Faruq</h5>
-              <p class="card-text">Web Developer.</p>
+          <div class="d-md-flex">
+            <div class="card me-2">
+              <img src="images/student/student-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Md Abdullah Al Hasan</h5>
+                <p class="card-text">Web Developer.</p>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/student/student-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Samiha khan</h5>
+                <p class="card-text">UI/UX Designer</p>
+              </div>
             </div>
           </div>
-          <div class="card me-2">
-            <img src="images/student/student-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Samiha khan</h5>
-              <p class="card-text">UI/UX Designer</p>
+          <div class="d-md-flex">
+            <div class="card me-2">
+              <img src="images/student/student-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Shafin Mahmud</h5>
+                <p class="card-text">SQA Engineer</p>
+              </div>
             </div>
-          </div>
-          <div class="card me-2">
-            <img src="images/student/student-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Shafin Mahmud</h5>
-              <p class="card-text">SQA Engineer</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/student/student-4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5>Tushar Ahmed</h5>
-              <p class="card-text">Android Developer</p>
+            <div class="card">
+              <img src="images/student/student-4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Tushar Ahmed</h5>
+                <p class="card-text">Android Developer</p>
+              </div>
             </div>
           </div>
           </div>
@@ -346,7 +363,7 @@
         </section>
         <!-- frequently asked questions ends-->
         <!-- Trusted over company section starts -->
-        <section class="container">
+        <section class="container d-md-none d-none d-lg-block">
           <div class="mt-5 text-center">
             <h2 class="fw-bold mb-5">Trusted by over 800+ companies</h2>
           </div>
